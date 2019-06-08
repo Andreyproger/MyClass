@@ -3,7 +3,7 @@
 #include <string.h>
 #include <cassert>
 #include <vector>
-#include "MStrings.h"
+#include "MStrings.cpp"
 //#include "MyClass.h"
 
 using namespace std;
