@@ -1,4 +1,4 @@
-language: c++
+language: C++
 sudo: false
 compiler: g++
 version: '1.0'
@@ -10,6 +10,8 @@ stages:
 build:
   include:
   stage: build
+  
+  g++ MyString.cpp -o MyString
   
 
   
