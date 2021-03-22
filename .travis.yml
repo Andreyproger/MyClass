@@ -3,15 +3,16 @@ sudo: false
 compiler: g++
 version: '1.0'
 
-stages:
-  - build
-  - test
+#stages:
+#  - build
+#  - test
   
-build:
-  include:
-  stage: build
-  
-  g++ MyString.cpp -o MyString
-  
+#build:
+#  include:
+#  stage: build
 
+install:
+  - sudo apt update -qq
   
+script:
+  g++ MyString.cpp -o MyString
